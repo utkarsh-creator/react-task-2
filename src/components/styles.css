@@ -1,0 +1,78 @@
+.container {
+    max-width: 20%;
+    height: 70vh;
+}
+
+.container.border {
+    border-radius: 20px;
+}
+
+.display {
+    height: 40%;
+    background-color: #172d67;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    color: white;
+    text-align: right;
+}
+
+.display-expression {
+    font-size:2.0rem ;   
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+.display-answer {
+    height: 50%;
+    font-size:2.0rem ;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+.keypad {
+    display: flex;
+    height: 60%;
+    width: 100%;
+    padding: 2px;
+    background-color: #050c26;
+    border: 0px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.keypad p {
+    color: #bbbcbc;
+    line-height: 1.875rem;
+    font-size: 1.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.keypad-keys {
+    flex: 3;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.keypad-keys p {
+    width: 33%;
+}
+
+.keypad-symbols {
+    flex: 1;
+}
+
+.keypad-symbols p {
+    height:14%;
+    width:100%;
+    color:#109bd6;
+    font-size:1.5rem ;
+    line-height: 1.1rem;
+}
